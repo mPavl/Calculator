@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Calculator</title>
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+	</head>
+
+	<body>
+		<form method='post' action=”/cgi-bin/calcul.py”>
+			<P><B>Welcome to the calculator</B>
+			<P><tr><td><input type="text" name="first_number" value="0" placeholder="Type in a digit without spaces" size="22" autocomplete="off"></td></tr>
+			<tr><td><input type="text" name="operator" value="?"></td></tr>
+			<tr><td><input type="text" name="second_number" value="0" placeholder="Type in a digit without spaces" size="22" autocomplete="off"></td></tr>
+			<P><input type="submit" form target="self" value="=" class="submit">
+			<P><h1>1. Input first number.</h1>
+			<P><h1>2. Input operator.</h1>
+			<P><h1>3. Input second number.</h1>
+			<P><h1>4. Press the button to get the result.</h1>
+			
+		</form>
+	</body>
+
+</html>
