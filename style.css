@@ -1,0 +1,35 @@
+html{
+	background:url(f.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+
+B{
+	text-shadow: black 4px 4px 4px;
+	color: #BEBEBE;
+	padding: 20%;
+    font-size:500%;
+    font-family: Tahoma;
+}
+input{
+	width: 10%;
+	margin-left: 7%;
+	opacity:0.5;
+	padding: 5%;
+    font-size: 300%;
+}
+.submit {
+	width: 30%;
+	opacity:0.5;
+	margin-left: 30%;
+	padding: 5%;
+	font-size: 300%;
+}
+h1{
+	text-shadow: white 1px 1px 2px;
+	color: #BEBEBE;
+    font-family: Tahoma;
+	text-align: center;
+}
+
